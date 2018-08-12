@@ -1,0 +1,17 @@
+{
+  "name": "canvas-recording-demo",
+  "version": "1.0.0",
+  "description": "Recording the contents of a canvas using the Media Capture and Streams API",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Joshua Escamilla <joshua.escamilla@selu.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^4.4.1",
+    "typescript": "^3.0.1",
+    "webpack": "^4.12.0",
+    "webpack-command": "^0.4.1"
+  }
+}
