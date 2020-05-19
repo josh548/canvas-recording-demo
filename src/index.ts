@@ -2,18 +2,7 @@ interface HTMLCanvasElementWithStream extends HTMLCanvasElement {
     captureStream(): MediaStream;
 }
 
-declare class MediaRecorder {
-    public constructor(stream: MediaStream);
-    public ondataavailable(event: DataAvailableEvent): void;
-    public start(): void;
-    public stop(): void;
-}
-
-interface DataAvailableEvent extends Event {
-    data: Blob;
-}
-
-function handleDataAvailable(event: DataAvailableEvent): void {
+function handleDataAvailable(event: BlobEvent): void {
     if (event.data && event.data.size > 0) {
         recordedBlobs.push(event.data);
     }

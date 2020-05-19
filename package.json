@@ -9,7 +9,8 @@
   "author": "Joshua Escamilla <joshua.escamilla@selu.edu>",
   "license": "MIT",
   "devDependencies": {
-    "ts-loader": "^4.5.0",
+    "@types/dom-mediacapture-record": "^1.0.5",
+    "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
