@@ -1,4 +1,3 @@
-// tslint:disable-next-line:interface-name
 interface HTMLCanvasElementWithStream extends HTMLCanvasElement {
     captureStream(): MediaStream;
 }
@@ -10,7 +9,6 @@ declare class MediaRecorder {
     public stop(): void;
 }
 
-// tslint:disable-next-line:interface-name
 interface DataAvailableEvent extends Event {
     data: Blob;
 }
